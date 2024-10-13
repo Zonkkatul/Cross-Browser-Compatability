@@ -1,0 +1,49 @@
+/* General footer styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff; /* Set background color */
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #eee; /* Add a subtle border */
+  }
+  
+  .footer-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .footer-left {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .footer-center nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-center a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+  }
+  
+  .footer-right a {
+    margin-left: 15px;
+  }
+  
+  .footer-right img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Hover effects */
+  .footer-center a:hover, 
+  .footer-right a:hover img {
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
